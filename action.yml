@@ -1,0 +1,16 @@
+name: "{thelo67}'s Action in action"
+description: "Greets someone and returns always 67"
+inputs:
+  who-to-greet:
+    description: "Who to greet"
+    required: true
+    default: "Muailma"
+outputs:
+  answer:
+    "The answer to everything (always 67)"
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{inputs.who-to-greet}}
+  
