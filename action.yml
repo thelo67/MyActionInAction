@@ -7,7 +7,7 @@ inputs:
     default: "Muailma"
 outputs:
   answer:
-    "The answer to everything (always 67)"
+    description: "The answer to everything (always 67)"
 runs:
   using: "docker"
   image: "Dockerfile"
