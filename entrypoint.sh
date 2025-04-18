@@ -1,4 +1,4 @@
 #!/bin/sh -l
 
 echo "Hello $1"
-echo "answer=76" >> $GITHUB_OUTPUT
+echo "answer=67" >> $GITHUB_OUTPUT
